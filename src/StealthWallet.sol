@@ -2,7 +2,7 @@
 pragma solidity ^0.8.23;
 
 import "openzeppelin/proxy/Clones.sol";
-import "@openzeppelin/contracts/utils/cryptography/MessageHashUtils.sol";
+import "openzeppelin/utils/cryptography/MessageHashUtils.sol";
 import "openzeppelin/utils/cryptography/ECDSA.sol";
 
 import "account-abstraction/core/BaseAccount.sol";
